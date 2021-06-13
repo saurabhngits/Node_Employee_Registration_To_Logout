@@ -1,0 +1,63 @@
+.welcome {
+    width: 15%;
+    margin: 109px auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 24px;
+}
+
+.welcome a {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.welcome a:hover {
+    text-decoration: underline;
+}
+
+.reg_main, .login_main{
+    width: 40%;
+    margin: 100px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 24px;
+    border: 1px solid #ccc;
+    box-shadow: 0.5px 0.5px #ccc;
+    padding: 60px 14px;
+    text-align: center;
+}
+
+.reg_form{
+    width: 88%;
+    margin: 0 auto;
+    text-align: initial
+}
+
+.reg_form input{
+    margin: 10px 12px;
+    padding: 7px 6px;
+    font-weight: 600;
+    width: 192px;
+    border: 1px solid #ccc;
+}
+
+/* .reg_form input[type="Submit"]{
+    border: none;
+} */
+
+.reg_form .submit{
+    text-align: center;
+}
+
+.reg_form input[type="radio"]{
+    width: initial;
+}
+
+.reg_form label{
+    color: #333;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.login_main{
+    width: 20%;
+}
